@@ -117,7 +117,7 @@ class Database(dict):
                 "hikka-assets",
                 "Ассети",
                 archive=True,
-                avatar="https://github.com/JSPiRiT1337/fotki/raw/main/6.jpg",
+                avatar="https://github.com/JSPiRiT1337/fotki/raw/main/7.jpg",
             )
         except ChannelsTooMuchError:
             self._assets = None
