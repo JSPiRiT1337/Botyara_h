@@ -366,7 +366,7 @@ updater:
     btn_update: "🧭 Mettre à jour"
     restart_confirm: "❓ <b>Êtes-vous sûr de vouloir redémarrer?</b>"
     secure_boot_confirm: "❓ <b>Êtes-vous sûr de vouloir redémarrer en mode démarrage sécurisé?</b>"
-    update_confirm: "❓ <b>Êtes-vous sûr de vouloir mettre à jour?</b>\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>Êtes-vous sûr de vouloir mettre à jour?</b>\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Vous avez la dernière version. Mettez-vous à jour de force?</b>"
     cancel: "🚫 Annuler"
     _cls_doc: "Mettre à jour l'utilisateur"

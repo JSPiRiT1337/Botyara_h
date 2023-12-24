@@ -364,7 +364,7 @@ updater:
     btn_update: "🧭 Aggiorna"
     restart_confirm: "❓ <b>Sei sicuro di voler riavviare?</b>"
     secure_boot_confirm: "❓ <b>Sei sicuro di voler riavviare in modalità avvio sicuro?</b>"
-    update_confirm: "❓ <b>Sei sicuro di voler aggiornare?\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>Sei sicuro di voler aggiornare?\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Sei già aggiornato. Forzare l'aggiornamento?</b>"
     cancel: "🚫 Annulla"
     _cls_doc: "Aggiorna il tuo userbot"

@@ -367,7 +367,7 @@ updater:
     btn_update: "🧭 Жаңарту"
     restart_confirm: "❓ <b>Сен жаңартуға сенімдісін бе?</b>"
     secure_boot_confirm: "❓ <b>Сен бұл бетті безпеке режимінде жаңартуға сенімдісін бе?</b>"
-    update_confirm: "❓ <b>Сен жаңартуға сенімдісін бе?\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>Сен жаңартуға сенімдісін бе?\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Сіздің соңғы нұсқаныңыз бар. Сіз жаңартуға мүмкіндік береді ме?</b>"
     cancel: "🚫 Бас тарту"
     _cls_doc: "Юзерботты жаңарту"

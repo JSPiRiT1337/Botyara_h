@@ -35,7 +35,7 @@ class HikkaInfoMod(loader.Module):
             ),
             loader.ConfigValue(
                 "banner_url",
-                "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4",
+                "https://github.com/JSPiRiT1337/fotki/raw/main/2.jpg",
                 lambda: self.strings("_cfg_banner"),
                 validator=loader.validators.Link(),
             ),
@@ -78,7 +78,7 @@ class HikkaInfoMod(loader.Module):
 
         return (
             (
-                "<b>🌘 Hikka</b>\n"
+                "<b>🌘 Botyara</b>\n"
                 if "hikka" not in self.config["custom_message"].lower()
                 else ""
             )
@@ -114,7 +114,7 @@ class HikkaInfoMod(loader.Module):
                         (
                             utils.get_platform_emoji()
                             if self._client.hikka_me.premium and not inline
-                            else "🌘 Hikka"
+                            else "🌘 Botyara"
                         ),
                         "<emoji document_id=5373141891321699086>😎</emoji>",
                         "<emoji document_id=5469741319330996757>💫</emoji>",
@@ -155,7 +155,7 @@ class HikkaInfoMod(loader.Module):
                 else {"message": self._render_info(True)}
             ),
             "thumb": (
-                "https://github.com/hikariatama/Hikka/raw/master/assets/hikka_pfp.png"
+                "https://github.com/JSPiRiT1337/fotki/raw/main/10.jpg"
             ),
             "reply_markup": self._get_mark(),
         }

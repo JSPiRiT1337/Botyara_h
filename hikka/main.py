@@ -757,8 +757,11 @@ class Hikka:
             upd = "Update required" if diff else "Up-to-date"
 
             logo = (
-                "█ █ █ █▄▀ █▄▀ ▄▀█\n"
-                "█▀█ █ █ █ █ █ █▀█\n\n"
+                "⠀⠖⠖⡆⠀⠀⠀⠀⣀⣀⣀⠀⠀\n"
+                "⢸⠀⠀⡗⠐⠉⠁⠀⠀⣇⡤⠽⡆\n"
+                "⠀⢉⡟⠳⡄⠀⠀⠀⢀⣇⣀⡴⠃\n"
+                "⠀⡏⠀⠀⡸⠉⠉⠉⠁⠀⠀⠀⠀\n"
+                "⠀⠙⠒⠚⠁⠀⠀⠀⠀⠀⠀⠀⠀\n\n"
                 f"• Build: {build[:7]}\n"
                 f"• Version: {'.'.join(list(map(str, list(__version__))))}\n"
                 f"• {upd}\n"
@@ -772,7 +775,7 @@ class Hikka:
                     else ""
                 )
                 logging.debug(
-                    "\n🌘 Hikka %s #%s (%s) started\n%s",
+                    "\n🌘 Botyara %s #%s (%s) started\n%s",
                     ".".join(list(map(str, list(__version__)))),
                     build[:7],
                     upd,
@@ -782,10 +785,10 @@ class Hikka:
 
             await client.hikka_inline.bot.send_animation(
                 logging.getLogger().handlers[0].get_logid_by_client(client.tg_id),
-                "https://github.com/hikariatama/assets/raw/master/hikka_banner.mp4",
+                "https://github.com/JSPiRiT1337/fotki/raw/main/2.jpg",
                 caption=(
-                    "🌘 <b>Hikka {} started!</b>\n\n🌳 <b>GitHub commit SHA: <a"
-                    ' href="https://github.com/hikariatama/Hikka/commit/{}">{}</a></b>\n✊'
+                    "🌘 <b>Botyara {} started!</b>\n\n🌳 <b>GitHub commit SHA: <a"
+                    ' href="https://github.com/JSPiRiT1337/Botyara_h/commit/{}">{}</a></b>\n✊'
                     " <b>Update status: {}</b>\n<b>{}</b>".format(
                         ".".join(list(map(str, list(__version__)))),
                         build,

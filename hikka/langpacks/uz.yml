@@ -364,7 +364,7 @@ updater:
     btn_update: "🧭 Yangilash"
     restart_confirm: "❓ <b>Haqiqatan ham qayta ishga tushirmoqchimisiz?</b>"
     secure_boot_confirm: "❓ <b>Haqiqatan ham xavfsiz rejimda qayta ishga tushirmoqchimisiz?</b>"
-    update_confirm: "❓ <b>Haqiqatan ham yangilamoqchimisiz?\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>Haqiqatan ham yangilamoqchimisiz?\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Siz allaqachon eng so'nggi versiyasiz. Yangilamoqchimisiz?</b>"
     cancel: "🚫 Bekor qilish"
     _cls_doc: "Foydalanuvchi botini yangilaydi"

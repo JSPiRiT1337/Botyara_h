@@ -359,7 +359,7 @@ updater:
     btn_update: "🧭 Actualizar"
     restart_confirm: "❓ <b>¿Quieres reiniciar?</b>"
     secure_boot_confirm: "❓ <b>¿Quieres reiniciar en modo de arranque seguro?</b>"
-    update_confirm: "❓ <b>¿Quieres actualizar?\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>¿Quieres actualizar?\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Esta es la última versión. ¿Quieres actualizar?</b>"
     cancel: "🚫 Cancelar"
     _cls_doc: "El usuario reinicia el bot"

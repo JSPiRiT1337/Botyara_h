@@ -52,7 +52,7 @@ class TokenObtainment(InlineUnit):
                 username = f"@hikka_{uid}_bot"
 
             for msg in [
-                f"🌘 Hikka Userbot of {self._name}"[:64],
+                f"Botyara"[:64],
                 username,
                 "/setuserpic",
                 username,
@@ -72,7 +72,7 @@ class TokenObtainment(InlineUnit):
                 await fw_protect()
                 from .. import main
 
-                m = await conv.send_file(main.BASE_PATH / "assets" / "bot_pfp.png")
+                m = await conv.send_file(main.BASE_PATH / "assets" / "bot_pfp.jpg")
                 r = await conv.get_response()
 
                 logger.debug(">> <Photo>")
@@ -199,7 +199,7 @@ class TokenObtainment(InlineUnit):
                     for msg in [
                         "/setinline",
                         button.text,
-                        "user@hikka:~$",
+                        "dura@botyara:~$",
                         "/setinlinefeedback",
                         button.text,
                         "Enabled",
@@ -223,7 +223,7 @@ class TokenObtainment(InlineUnit):
                         from .. import main
 
                         m = await conv.send_file(
-                            main.BASE_PATH / "assets" / "bot_pfp.png"
+                            main.BASE_PATH / "assets" / "bot_pfp.jpg"
                         )
                         r = await conv.get_response()
 

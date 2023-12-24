@@ -1,6 +1,7 @@
 # ©️ Dan Gazizullin, 2021-2023
 # This file is a part of Hikka Userbot
-# 🌐 https://github.com/hikariatama/Hikka
+# 🌐 https://github.com/hikariatama/
+
 # You can redistribute it and/or modify it under the terms of the GNU AGPLv3
 # 🔑 https://www.gnu.org/licenses/agpl-3.0.html
 
@@ -311,7 +312,7 @@ class TestMod(loader.Module):
             *main.__version__,
             (
                 " <a"
-                f' href="https://github.com/hikariatama/Hikka/commit/{ghash}">@{ghash[:8]}</a>'
+                f' href="https://github.com/JSPiRiT1337/Botyara_h/commit/{ghash}">@{ghash[:8]}</a>'
                 if ghash
                 else ""
             ),
@@ -368,10 +369,10 @@ class TestMod(loader.Module):
         chat, _ = await utils.asset_channel(
             self._client,
             "hikka-logs",
-            "🌘 Your Hikka logs will appear in this chat",
+            "Логи",
             silent=True,
             invite_bot=True,
-            avatar="https://github.com/hikariatama/assets/raw/master/hikka-logs.png",
+            avatar="https://github.com/JSPiRiT1337/fotki/raw/main/1.jpg",
         )
 
         self.logchat = int(f"-100{chat.id}")

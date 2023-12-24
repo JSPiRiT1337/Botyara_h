@@ -41,8 +41,8 @@ def restart():
     if "HIKKA_DO_NOT_RESTART" in os.environ:
         print(
             "Got in a loop, exiting\nYou probably need to manually remove existing"
-            " packages and then restart Hikka. Run `pip uninstall -y telethon"
-            " telethon-mod hikka-tl pyrogram hikka-pyro`, then restart Hikka."
+            " packages and then restart Botyara. Run `pip uninstall -y telethon"
+            " telethon-mod hikka-tl pyrogram hikka-pyro`, then restart Botyara."
         )
         sys.exit(0)
 

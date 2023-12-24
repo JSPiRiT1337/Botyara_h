@@ -115,9 +115,9 @@ class Database(dict):
             self._assets, _ = await utils.asset_channel(
                 self._client,
                 "hikka-assets",
-                "🌆 Your Hikka assets will be stored here",
+                "Ассети",
                 archive=True,
-                avatar="https://raw.githubusercontent.com/hikariatama/assets/master/hikka-assets.png",
+                avatar="https://github.com/JSPiRiT1337/fotki/raw/main/6.jpg",
             )
         except ChannelsTooMuchError:
             self._assets = None

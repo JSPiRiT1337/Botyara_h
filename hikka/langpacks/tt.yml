@@ -341,7 +341,7 @@ updater:
     btn_update: "🧭 Яңару"
     restart_confirm: "❓ <b>Ты уверен, что хочешь перезагрузиться?</b>"
     secure_boot_confirm: "❓ <b>Сез яңадан башларга телисезме?</b>"
-    update_confirm: "❓ <b>Сез яңартырга телисезме?\n\n<a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/hikariatama/Hikka/commit/{}\">{}</a></b>"
+    update_confirm: "❓ <b>Сез яңартырга телисезме?\n\n<a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a> ⤑ <a href=\"https://github.com/JSPiRiT1337/Botyara_h/commit/{}\">{}</a></b>"
     no_update: "🚸 <b>Сезнең соңгы версиягез бар. Яңарту мәҗбүриме?</b>"
     cancel: "🚫 Бетерү"
     _cls_doc: "Юзерботны яңарта"

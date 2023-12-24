@@ -49,12 +49,12 @@ class CoreMod(loader.Module):
     async def hikkacmd(self, message: Message):
         await utils.answer_file(
             message,
-            "https://github.com/hikariatama/assets/raw/master/hikka_cat_banner.mp4",
+            "https://github.com/JSPiRiT1337/fotki/raw/main/5.jpg",
             self.strings("hikka").format(
                 (
                     utils.get_platform_emoji()
                     if self._client.hikka_me.premium and CUSTOM_EMOJIS
-                    else "🌘 <b>Hikka userbot</b>"
+                    else "🌘 <b>Botyara userbot</b>"
                 ),
                 *version.__version__,
                 utils.get_commit_url(),
