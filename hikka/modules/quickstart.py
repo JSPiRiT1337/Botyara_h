@@ -14,13 +14,7 @@ from ..inline.types import BotInlineCall
 logger = logging.getLogger(__name__)
 
 imgs = [
-    "https://i.gifer.com/GmUB.gif",
-    "https://i.gifer.com/Afdn.gif",
-    "https://i.gifer.com/3uvT.gif",
-    "https://i.gifer.com/2qQQ.gif",
-    "https://i.gifer.com/Lym6.gif",
-    "https://i.gifer.com/IjT4.gif",
-    "https://i.gifer.com/A9H.gif",
+    "https://raw.githubusercontent.com/JSPiRiT1337/fotki/main/1.gif",
 ]
 
 
@@ -33,7 +27,7 @@ class Quickstart(loader.Module):
             [
                 {
                     "text": self.strings("btn_support"),
-                    "url": "https://t.me/hikka_talks",
+                    "url": "https://t.me/natribu_tg",
                 }
             ],
         ] + utils.chunks(
